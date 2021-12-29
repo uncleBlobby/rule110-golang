@@ -13,7 +13,7 @@ func main() {
 	patterns := InitPatterns()
 	counter := 0
 	computeNextGeneration(seed, patterns, counter)
-	fmt.Println("Done: ")
+	fmt.Println("Done")
 }
 
 func computeNextGeneration(input [60]int, patterns []Pattern, counter int) {
